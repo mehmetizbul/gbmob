@@ -37,5 +37,6 @@
         <Capability Name="internetClientServer" />
         <DeviceCapability Name="webcam" />
         <DeviceCapability Name="location" />
+        <DeviceCapability Name="microphone" />
     </Capabilities>
 </Package>

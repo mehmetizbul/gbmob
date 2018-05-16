@@ -19,16 +19,12 @@
     "cordova-plugin-globalization": {
       "PACKAGE_NAME": "HelloCordova"
     },
-    "cordova-plugin-file-transfer": {
+    "cordova-plugin-file": {
       "PACKAGE_NAME": "HelloCordova"
     },
-    "cordova-plugin-file": {
+    "cordova-plugin-media-capture": {
       "PACKAGE_NAME": "HelloCordova"
     }
   },
-  "dependent_plugins": {
-    "cordova-plugin-compat": {
-      "PACKAGE_NAME": "HelloCordova"
-    }
-  }
+  "dependent_plugins": {}
 }
