@@ -7,10 +7,10 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-whitelist": {
+    "cordova-plugin-camera": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     },
-    "cordova-plugin-camera": {
+    "cordova-plugin-file-transfer": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     },
     "cordova-plugin-geolocation": {
@@ -19,12 +19,13 @@
     "cordova-plugin-globalization": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     },
-    "cordova-plugin-file": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
-    },
-    "cordova-plugin-file-transfer": {
+    "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    }
+  }
 }
