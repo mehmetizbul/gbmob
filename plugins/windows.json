@@ -21,6 +21,9 @@
     },
     "cordova-plugin-file": {
       "PACKAGE_NAME": "HelloCordova"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "HelloCordova"
     }
   },
   "dependent_plugins": {}
