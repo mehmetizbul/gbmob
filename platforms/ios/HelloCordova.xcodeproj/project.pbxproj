@@ -23,6 +23,7 @@
 		C379A2F1CEB94353BEB133D7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B008403600484DB9C73C74 /* CoreLocation.framework */; };
 		09A3186AE10A4F6C90A723C9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27EBF7039CC14DF39F9184F6 /* AVFoundation.framework */; };
 		5ADB08F28E8C464A9309DF68 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = A65C59B1A171408BB7DDCEB2 /* CDVLocation.m */; };
+		A3E906FCD6D04B42976BCF95 /* CDVGlobalization.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EFBFC55B9F49968E2CAB2C /* CDVGlobalization.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,8 @@
 		27EBF7039CC14DF39F9184F6 /* AVFoundation.framework */ = {isa = PBXFileReference; name = "AVFoundation.framework"; path = "System/Library/Frameworks/AVFoundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		A65C59B1A171408BB7DDCEB2 /* CDVLocation.m */ = {isa = PBXFileReference; name = "CDVLocation.m"; path = "cordova-plugin-geolocation/CDVLocation.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		FA3CD68921FB47528041B523 /* CDVLocation.h */ = {isa = PBXFileReference; name = "CDVLocation.h"; path = "cordova-plugin-geolocation/CDVLocation.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		E0EFBFC55B9F49968E2CAB2C /* CDVGlobalization.m */ = {isa = PBXFileReference; name = "CDVGlobalization.m"; path = "cordova-plugin-globalization/CDVGlobalization.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		43811B77788746E89A1F0D60 /* CDVGlobalization.h */ = {isa = PBXFileReference; name = "CDVGlobalization.h"; path = "cordova-plugin-globalization/CDVGlobalization.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +196,8 @@
 				F13BF773D56D4AD89E817F9D /* CDVExif.h */,
 				A65C59B1A171408BB7DDCEB2 /* CDVLocation.m */,
 				FA3CD68921FB47528041B523 /* CDVLocation.h */,
+				E0EFBFC55B9F49968E2CAB2C /* CDVGlobalization.m */,
+				43811B77788746E89A1F0D60 /* CDVGlobalization.h */,
 			);
 			name = Plugins;
 			path = "HelloCordova/Plugins";
@@ -309,6 +314,7 @@
 				032A121CC5184874AD84DCA4 /* CDVCamera.m in Sources */,
 				0E99171AD2A94EF4B01ABC03 /* CDVJpegHeaderWriter.m in Sources */,
 				5ADB08F28E8C464A9309DF68 /* CDVLocation.m in Sources */,
+				A3E906FCD6D04B42976BCF95 /* CDVGlobalization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

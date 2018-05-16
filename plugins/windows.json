@@ -15,6 +15,9 @@
     },
     "cordova-plugin-geolocation": {
       "PACKAGE_NAME": "HelloCordova"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "HelloCordova"
     }
   },
   "dependent_plugins": {}
