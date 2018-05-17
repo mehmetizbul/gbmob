@@ -24,6 +24,9 @@
     },
     "cordova-plugin-media-capture": {
       "PACKAGE_NAME": "HelloCordova"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "HelloCordova"
     }
   },
   "dependent_plugins": {}
